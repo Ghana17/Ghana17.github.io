@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.kiri {
+    width: 10%;
+    float: left;
+    
+}
+.kanan{
+    float: right;
+    width: 90%;
+    margin-top: 30px;
+    text-align: center;
+}
+.judul{
+    padding: 5px;
+    font-style: bold;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.visi{
+    padding: 5px;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.isi{
+    padding: 5px;
+    
+}
+.kiri nav>ul>li a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    
+
+}
+
+.kiri nav>ul>li {
+
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.kiri nav>ul>li a {
+    color:black;
+    border: 1px solid #111;
+    margin-right: 10px;
+   
+}
+
+.kiri nav>ul>li a:hover {
+    background: #424242;
+    color: #fff;
+    border-color: #424242;
+}
+.kiri nav>ul>li .pilih{
+    color:black;
+    border: 1px solid #111;
+    margin-right: 10px;
+   background: gray
+}

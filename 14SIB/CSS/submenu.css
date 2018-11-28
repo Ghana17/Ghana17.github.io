@@ -1,0 +1,81 @@
+
+.menu{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+nav{
+    position: relative;
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    font-family: arial;
+    font-weight: strong;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li ul li a:hover{
+    background: white;
+    color: #fff; width: 230px;
+}
+nav ul li ul li a:hover{
+    background: white;
+    opacity: 0.8;
+    color: white;
+    width: 230px;
+}
+
+nav ul li ul{
+    display: block;
+    background: rgba(0,0,0, 0.8);
+    min-width: 250px;
+    position: absolute;
+    
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: translateY(40px);
+    color: white;
+}
+
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+nav ul li ul li a{
+    padding: 1px 10px 1px 10px;
+    color: white;
+    }
+
+<li><a href="#">BEM</a></li>
+                        <li><a href="#">HIMASIF</a></li>
+                        <li><a href="#">UKM MAPALA BALWANA</a></li>
+                        <li><a href="#">UKP-P BINARY</a></li>
+                        <li><a href="#">UKM LAOS</a></li>
+                        <li><a href="#">UKM-0 MACO</a></li>
+                        <li><a href="#">UKM-K ETALASE</a></li>

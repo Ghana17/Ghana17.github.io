@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.login {
+    width: 400px;
+    margin: 150px auto;
+    font-size: 17px;
+}
+
+.login-admin,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login-admin {
+    background: gray;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.login-isi {
+    background: rgba(121, 122, 122, 0.5);
+    padding: 12px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login p {
+    padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="username"],
+.login input[type="password"] {
+    background: white;
+    border-color: gray;
+    color: black;
+}
+
+.login input[type="username"]:focus,
+.login input[type="password"]:focus {
+    border-color: black;
+}
+
+.login input[type="submit"] {
+    background: rgb(114, 112, 112);
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.login input[type="submit"]:hover {
+    background: #414040;
+}
+
+.login input[type="submit"]:focus {
+    border-color: #414040;
+}

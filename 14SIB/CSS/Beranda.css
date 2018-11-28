@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.heading {
+    padding-top: 1em;
+}
+
+#header {
+    background: #fff;
+    color: #555f66;
+    cursor: default;
+    height: 3em;
+    left: 0;
+    line-height: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header h1 {
+    color: #666f77;
+    left: 1.25em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+}
+
+#header h1 a {
+    font-size: 1.25em;
+}
+
+#header nav {
+    position: absolute;
+    right: 1.25em;
+    top: 0;
+}
+
+#header nav>ul {
+    list-style: none;
+    margin: 0;
+}
+
+#header nav>ul>li {
+    border-radius: 6px;
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#header nav>ul>li a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+#header nav>ul>li a:hover {
+    color: #629DD1;
+}
+
+#header nav>ul>li:first-child {
+    margin-left: 0;
+}
+
+#header nav>ul>li .button {
+    color: #fff;
+    border: 1px solid #111;
+    margin-right: 10px;
+    background-color: #111;
+}
+
+#header nav>ul>li .button:hover {
+    background: #424242;
+    color: #fff;
+    border-color: #424242;
+}
+
+#header .container {
+    position: relative;
+}
+
+#header .container h1 {
+    left: 0;
+}
+
+#header .container nav {
+    right: 0;
+}
+
+#banner {
+    background-color: #666666;
+    background-image: url("../Image/2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #d8d8d8;
+    padding: 14em 0;
+    text-align: center;
+    position: relative;
+}
+
+#banner:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(64, 72, 80, 0.25);
+}
+
+#banner .inner {
+    position: relative;
+    z-index: 1;
+}
+
+#banner .inner :last-child {
+    margin-bottom: 0;
+}
+
+#banner h2,
+#banner h3,
+#banner h4,
+#banner h5,
+#banner h6 {
+    color: #ffffff;
+}
+
+#banner .button.alt {
+    box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
+    color: #ffffff !important;
+}
+
+#banner .button.alt:hover {
+    background-color: rgba(144, 144, 144, 0.275);
+}
+
+#banner .button.alt:active {
+    background-color: rgba(144, 144, 144, 0.4);
+}
+
+#banner .button.alt.icon:before {
+    color: #c1c1c1;
+}
+
+#banner .button {
+    min-width: 12em;
+}
+
+#banner h2 {
+    text-align: center;
+    position: relative;
+    font-size: 3.5em;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    color: #fff;
+    transition: 0.5s fade;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#banner p {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    text-align: center;
+    line-height: 1em;
+    color: #fff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+.wrapper.style1 {
+    background: #fff;
+    color: #555f66;
+}
+
+header.major {
+    margin: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    padding: 2em;
+    line-height: 2em;
+}
+
+#formKomentar {
+    border: 5px solid #d1d1d1;
+    width: 500px;
+    padding: 10px;
+    text-align: left;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 3px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+    border: 3px solid #5E4F4F;
+}
+
+textarea {
+    width: 300px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #efefef, #ddd);
+    background: -moz-linear-gradient(top, #efefef, #ddd);
+    background: -ms-linear-gradient(top, #efefef, #ddd);
+    background: -o-linear-gradient(top, #efefef, #ddd);
+    background: linear-gradient(top, #efefef, #ddd);
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
+    border: 1px solid #ccc;
+}
+
+input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #eee, #ccc);
+    background: -moz-linear-gradient(top, #eee, #ccc);
+    background: -ms-linear-gradient(top, #eee, #ccc);
+    background: -o-linear-gradient(top, #eee, #ccc);
+    background: linear-gradient(top, #eee, #ccc);
+    border: 1px solid #bbb;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
